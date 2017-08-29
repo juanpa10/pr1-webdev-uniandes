@@ -1,0 +1,26 @@
+.contenedor1{
+ 	background-color: #1abc9c;
+      color: #ffffff;
+}
+.contenedor2 { 
+      background-color: #474e5d;
+      color: #ffffff;
+  }
+  .contenedor3 { 
+      background-color: #ffffff;
+      color: #555555;
+  }
+ .miFit{
+}
+.esconderFotoPeq{
+	display: none !important;
+}
+.esconder1{
+	display: none !important;
+}
+.esconder2{
+	display: none !important;
+}
+.esconder3{
+	display: none !important;
+}
