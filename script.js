@@ -1,4 +1,4 @@
-var es1 = true;
+var es1 = false;
 var es2 = true;
 var es3 = true;
 
@@ -31,4 +31,14 @@ function esconder3(){
 	}
 	document.getElementById('esconder3').style.display = 'block';
 	es3 =false;
+}
+function abrirTextArea(){
+	document.getElementById('esconderTA').style.display = 'block';
+}
+function sendMail() {
+    var link = "mailto:jp.camacho10@uniandes.edu.co"
+             + "&subject=" + escape("This is my subject")
+             + "&body=" + escape(document.getElementById('textoMail').value)
+    ;
+    window.open(link);
 }
